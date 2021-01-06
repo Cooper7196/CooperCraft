@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "overworld - overworld",
+        "end - end"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1608518850",
+        "cacheTag": "1609899191",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +42,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (smooth_lighting)",
-            "zoomLevels": 8,
+            "name": "Overworld",
+            "zoomLevels": 11,
             "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "world-smooth_lighting",
+            "maxZoom": 11,
+            "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1608516934,
+            "world": "overworld - overworld",
+            "last_rendertime": 1609897043,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -65,6 +66,29 @@ var overviewerConfig = {
                 80,
                 242
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "The End",
+            "zoomLevels": 11,
+            "defaultZoom": 1,
+            "maxZoom": 11,
+            "path": "nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "end - end",
+            "last_rendertime": 1609896716,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                64,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
